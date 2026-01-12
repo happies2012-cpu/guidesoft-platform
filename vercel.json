@@ -1,0 +1,19 @@
+{
+    "buildCommand": "next build",
+    "framework": "nextjs",
+    "installCommand": "npm install",
+    "env": {
+        "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_Y2xlcmsuZ3VpZGVzb2Z0LmNvbSQ",
+        "CLERK_SECRET_KEY": "sk_test_abcdefghijklmnopqrstuvwxyz1234567890",
+        "NEXT_PUBLIC_CLERK_SIGN_IN_URL": "/sign-in",
+        "NEXT_PUBLIC_CLERK_SIGN_UP_URL": "/sign-up",
+        "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL": "/dashboard",
+        "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL": "/onboarding",
+        "NEXT_PUBLIC_SUPABASE_URL": "https://placeholder.supabase.co",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "placeholder_key",
+        "SUPABASE_SERVICE_ROLE_KEY": "placeholder_key",
+        "UPI_ID": "8884162999-4@ybl",
+        "UPI_NAME": "GUIDESOFT",
+        "ADMIN_EMAIL": "admin@guidesoft.com"
+    }
+}
